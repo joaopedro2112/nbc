@@ -28,6 +28,10 @@
 
     }
 
+    .on-card {
+        height: 75px;
+        min-height: 40px;
+    }
 
     .startistics-card-end {
         flex-direction: row;
@@ -120,3 +124,4 @@
 
 
 }
+
