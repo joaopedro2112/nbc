@@ -1,0 +1,38 @@
+.navbar-section {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    transition: background-color 0.3s ease-in-out, backdrop-filter 0.3s ease-in-out, box-shadow 0.3s ease-in-out, height 0.3s ease-in-out;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-bottom: 1px solid #80808099;
+    background-color: var(--background-navbar);
+    z-index: var(--index-navbar);
+}
+
+.logo {
+    font-size: 17px;
+}
+
+.icon-menu {
+    width: 100%;
+    height: min-content;
+    max-width: 25px;
+}
+
+.icon-menu-button {
+    background-color: transparent;
+    border: none;
+}
+
+.title-primary-section {
+    font-size: 45px;
+}
+.navbar-section-active {
+    background-color: #00000082;
+    backdrop-filter: blur(15px);
+    border-bottom: none;
+    height: 8vh;
+    box-shadow: 0 0 5px #e3e4ed34;
+}

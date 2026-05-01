@@ -1,0 +1,24 @@
+:root {
+    --background-navbar:#0a081c;
+    --primary-color:#0d0b2a;
+    --secondary-color:#09051D;
+    --third-color:#151032;
+    --text-grey: #c2c1c1;
+    --card-border: #221667d5;
+    --animation: #8823e13f;
+    --backgrond-cards: #291b7a1d;
+    --span: #7a3afb;
+    --span-two: #3a8efb;
+    --button-background: #9e2bea;
+    --span-three: #5975ff;
+    --border: #ffffff7d;
+    --scroll: #832fdcb0;
+    --scroll-active: #853bd4d7;
+    --scroll-thumb: #808080;
+    --background-body: radial-gradient(circle at top, #151243 20%, #080A20 40%);
+    --background-color-body:#080A20;
+    --background-button: linear-gradient(to right ,#8C2BFB, #3A58FB);
+    --index-navbar: 30;
+    --index-button-arrow:35;
+    --index-animation: 40;
+}

@@ -1,0 +1,133 @@
+@media (max-width: 367px) {
+    .title-statistics-section {
+        font-size: 32px;
+    }
+
+    .text-statistics-section {
+        font-size: 13px;
+    }
+
+    .on-card {
+        max-width: 460px;
+    }
+
+}
+
+@media (min-width:480px) {
+    .title-primary-section {
+
+        font-size: 50px;
+    }
+
+    .text-primary-section {
+        max-width: 440px;
+    }
+
+    .startistics-card {
+        min-height: 16vh;
+
+    }
+
+    .on-card {
+        height: 25vh;
+        min-height: 20vh;
+    }
+
+    .startistics-card-end {
+        flex-direction: row;
+        padding: 20px;
+    }
+}
+
+
+@media (min-width:768px) {
+    .startistics-card-end {
+        width: 100%;
+        gap: 20px;
+        padding: 20px;
+        flex-direction: row;
+        max-width: 500px;
+        border-radius: 30px;
+    }
+
+
+    .navbar-section {
+        height: 15vh;
+    }
+
+    .navbar-section-active {
+        height: 13vh;
+    }
+
+    .btn {
+        padding: 12px 20px;
+    }
+
+    .title-primary-section {
+        font-size: 75px;
+        max-width: 500px;
+    }
+
+    .text-primary-section {
+        font-size: 19px;
+        max-width: 450px;
+    }
+
+    .title-statistics-section {
+        font-size: 56px;
+        max-width: initial;
+    }
+
+    .text-statistics-section {
+        font-size: 17px;
+    }
+}
+
+@media (hover:hover) {
+
+    .startistics-card:hover,
+    .on-card:hover {
+        box-shadow: 1px 1px 30px rgba(123, 161, 215, 0.307);
+        border: 2px solid var(--card-border);
+        transform: scale(1.03) translateY(-6px);
+    }
+
+    .startistics-card-end:hover {
+        box-shadow: 0px 0px 20px rgba(123, 161, 215, 0.307);
+        border: 2px solid var(--card-border);
+        transform: translateY(6px);
+    }
+
+    .button-arrow:hover {
+        transform: scale(0.9);
+    }
+
+    .startistics-card {
+        max-width: 250px;
+    }
+}
+
+@media (min-width:1024px) {
+    .on-card {
+        height: 45vh;
+    }
+
+    .title-primary-section {
+        font-size: 85px;
+        max-width: 600px;
+    }
+
+    body {
+        padding-top: 15dvh;
+    }
+
+    
+    .navbar-section {
+        height: 15vh;
+    }
+
+    .navbar-section-active {
+        height: 13vh;
+    }
+
+}
