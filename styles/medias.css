@@ -24,14 +24,10 @@
     }
 
     .startistics-card {
-        min-height: 16vh;
+        min-height: 36px;
 
     }
 
-    .on-card {
-        height: 25vh;
-        min-height: 20vh;
-    }
 
     .startistics-card-end {
         flex-direction: row;
@@ -52,11 +48,15 @@
 
 
     .navbar-section {
-        height: 15vh;
+        height: 85px;
+    }
+
+    body {
+        padding-top: 85px;
     }
 
     .navbar-section-active {
-        height: 13vh;
+        height: 74px;
     }
 
     .btn {
@@ -109,7 +109,7 @@
 
 @media (min-width:1024px) {
     .on-card {
-        height: 45vh;
+        height: 85px;
     }
 
     .title-primary-section {
@@ -117,17 +117,6 @@
         max-width: 600px;
     }
 
-    body {
-        padding-top: 15dvh;
-    }
 
-    
-    .navbar-section {
-        height: 15vh;
-    }
-
-    .navbar-section-active {
-        height: 13vh;
-    }
 
 }
