@@ -1,6 +1,6 @@
 .navbar-section {
     width: 100%;
-    height: 10vh;
+    height: 80px;
     display: flex;
     transition: background-color 0.3s ease-in-out, backdrop-filter 0.3s ease-in-out, box-shadow 0.3s ease-in-out, height 0.3s ease-in-out;
     align-items: center;
@@ -33,6 +33,6 @@
     background-color: #00000082;
     backdrop-filter: blur(15px);
     border-bottom: none;
-    height: 8vh;
+    height: 64px;
     box-shadow: 0 0 5px #e3e4ed34;
 }
